@@ -1,0 +1,88 @@
+# Copyright (C) 2014 Pressgram Customizations
+# This file is distributed under the same license as the Pressgram Customizations package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pressgram Customizations 0.1-alpha\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/pressgram-"
+"customizations\n"
+"POT-Creation-Date: 2014-04-13 13:41:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: pressgram-customizations.php:85 pressgram-customizations.php:100
+msgid "Hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:86
+msgid "Hashtag"
+msgstr ""
+
+#: pressgram-customizations.php:87
+msgid "Search Hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:88
+msgid "Popular Hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:89
+msgid "All Hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:92
+msgid "Edit Hashtag"
+msgstr ""
+
+#: pressgram-customizations.php:93
+msgid "Update Hashtag"
+msgstr ""
+
+#: pressgram-customizations.php:94
+msgid "Add New Hashtag"
+msgstr ""
+
+#: pressgram-customizations.php:95
+msgid "New Hashtag Name"
+msgstr ""
+
+#: pressgram-customizations.php:96
+msgid "Separate hashtags with commas"
+msgstr ""
+
+#: pressgram-customizations.php:97
+msgid "Add or remove hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:98
+msgid "Choose from the most used hashtags"
+msgstr ""
+
+#: pressgram-customizations.php:99
+msgid "No hashtags found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pressgram Customizations"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mattonomics/pressgram-customizations"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Make @ mentions linked on singles and insert hashtags as tags and make them "
+"clickable."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matt Gross"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mattonomics.com"
+msgstr ""
