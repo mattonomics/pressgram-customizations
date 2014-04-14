@@ -40,7 +40,7 @@ final class pressgram_customizations {
 		if ( !empty( $title ) && is_string( $title ) ) {
 			preg_match_all( $this->get_username_regex(), $title, $matches );
 			if ( is_array( $matches[0] ) ) {
-				foreach ( $matches[0] as $username ) {
+				foreach ( array_unique( $matches[0] ) as $username ) {
 					$replacement = "<a target=\"_blank\" href=\"". esc_url( 'https://twitter.com/' . esc_attr( ltrim( $username, '@' ) ) ). "\">" . esc_attr( $username ) . "</a>";
 					$title = preg_replace( "/$username/", $replacement, $title );
 				}
@@ -114,11 +114,11 @@ final class pressgram_customizations {
 	}
 	
 	private function get_username_regex() {
-		return '/@([a-zA-Z0-9_]{1,15})/';
+		return '/(?<=\W)@([a-zA-Z0-9_]{1,15})/';
 	}
 	
 	private function get_hashtag_regex() {
-		return '/\W*#\w\w+/';
+		return '/(?<=\W)#\w\w+/';
 	}
 	
 	public function textdomain() {
